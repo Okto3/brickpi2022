@@ -1,5 +1,8 @@
 #you will need to install speake3
-import speake3
+try:
+    import speake3
+except:
+    pass
 import pygame
 
 class SoundInterface():

@@ -3,8 +3,11 @@
 import time
 import io
 import threading
-import picamera
-import picamera.array
+try:
+    import picamera
+    import picamera.array
+except:
+    pass
 import cv2
 import numpy as np
 import logging
