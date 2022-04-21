@@ -60,11 +60,12 @@ def robotload():
         GLOBALS.ROBOT = robot.Robot(10, app.logger)
         GLOBALS.ROBOT.configure_sensors() #defaults have been provided but you can 
         GLOBALS.ROBOT.reconfig_IMU()
-    if not GLOBALS.SOUND:
+    if not GLOBALS.SOUND and GLOBALS.ROBOT.BP != "Cheese.":
         log("FLASK APP: LOADING THE SOUND")
         GLOBALS.SOUND = soundinterface.SoundInterface()
         GLOBALS.SOUND.say("I am ready")
-    sensordict = GLOBALS.ROBOT.get_all_sensors()
+    if GLOBALS.ROBOT.BP != "Cheese.":
+        sensordict = GLOBALS.ROBOT.get_all_sensors()
     return jsonify(sensordict)
 
 # ---------------------------------------------------------------------------------------

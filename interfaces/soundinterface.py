@@ -8,7 +8,10 @@ import pygame
 class SoundInterface():
     
     def __init__(self):
-        self.engine = speake3.Speake()
+        try:
+            self.engine = speake3.Speake()
+        except:
+            return
         self.engine.set('voice', 'en-scotish')
         self.engine.set('speed', '150')
         self.engine.set('pitch', '60')

@@ -23,16 +23,19 @@ class BrickPiInterface():
 
     #Initialise timelimit and logging
     def __init__(self, timelimit=10, logger=logging.getLogger()):
-        self.logger = logger
-        self.CurrentCommand = "loading"
-        self.Configured = False #is the robot yet Configured?
-        self.BP = None
-        self.BP = brickpi3.BrickPi3() # Create an instance of the BrickPi3
-        self.config = {} #create a dictionary that represents if the sensor is Configured
-        self.timelimit = timelimit #fail safe timelimit - motors turn off after timelimit
-        self.imu_status = 0; self.Calibrated = False
-        self.thread_running = False
-        self.CurrentCommand = "stop" #when the device is ready for a new instruction it 
+        try:
+            self.logger = logger
+            self.CurrentCommand = "loading"
+            self.Configured = False #is the robot yet Configured?
+            self.BP = None
+            self.BP = brickpi3.BrickPi3() # Create an instance of the BrickPi3
+            self.config = {} #create a dictionary that represents if the sensor is Configured
+            self.timelimit = timelimit #fail safe timelimit - motors turn off after timelimit
+            self.imu_status = 0; self.Calibrated = False
+            self.thread_running = False
+            self.CurrentCommand = "stop" #when the device is ready for a new instruction it 
+        except:
+            self.BP = "Cheese."
         return
 
     #------------------- Initialise Ports ---------------------------
@@ -42,6 +45,8 @@ class BrickPiInterface():
     # this will take 3-4 seconds to initialise
     def configure_sensors(self, motorports=None, sensorports=None):
         bp = self.BP
+        if self.BP == "Cheese.":
+            return
         if motorports == None:
             motorports = {'rightmotor':bp.PORT_A, 'leftmotor':bp.PORT_D, 'mediummotor':bp.PORT_B }
         if sensorports == None:
@@ -173,6 +178,8 @@ class BrickPiInterface():
 
     #hopefully this is an emergency reconfigure of the IMU Sensor
     def reconfig_IMU(self):
+        if self.BP == "Cheese.":
+            return
         ifMutexAcquire(USEMUTEX)
         try:
             self.imu.BNO055.i2c_bus.reconfig_bus()
