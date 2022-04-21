@@ -155,6 +155,12 @@ def searchMaze():
         GLOBALS.ROBOT.automatedSearch()
     return jsonify(data)
 
+@app.route('/autonomouseSearch', methods=['GET','POST'])
+def autonomouseSearch():
+    data = None
+
+    return jsonify(data)
+
 
 
 
