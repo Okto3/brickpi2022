@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="page-header" id="banner">
+        <div class="row">
+            <h1>Robot mission View</h1>
+
+            <form action="/mission" method="POST">
+                <label>medic on duty:</label><br>
+                <input type="text" id="medic" name="medic" value="{{session['name']}}"><br>
+                <label>location:</label><br>
+                <input type="text" id="location" name="location" value=""><br>
+                <label>Medical Notes:</label><br>
+                <input type="text" id="notes" name="notes" values=""><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+
+        </div>
+    </div>
+    <div class="row" id="message">
+    </div>
+{% endblock %}
