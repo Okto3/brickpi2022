@@ -13,20 +13,15 @@ function load_map()
     turtle.right(90);
 }
 
-// TURTLE EXAMPLE
-function drawmap() {
-   turtle.forward(2);
-   if (Math.floor(alpha / 360) % 2 === 0) {
-      turtle.left(1);        // turn left by 1 degree
-   } else {
-      turtle.right(1);       // turn right by 1 degree
-   }
-
-   alpha += 1;
-   if (alpha < 1440) {  // stop after two rounds
-       setTimeout(drawmap, 20); 
-   }
+function mapForward(results)
+{
+   turtle.lookTo(results.heading);
+   turtle.forward(results.elapsedtime*20);
+}
+function mapBackward(results)
+{
+   turtle.lookTo(results.heading);
+   turtle.forward(results.elapsedtime*-20);
 }
 
 load_map();
-drawmap();

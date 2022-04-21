@@ -8,6 +8,7 @@ except ImportError:
     print("BrickPi not installed") #module not found
     
 import time, math, sys, logging, threading
+import numpy as np
 
 MAGNETIC_DECLINATION = 11 #set for different magnetic fields based on location
 USEMUTEX = True #avoid threading issues
@@ -21,7 +22,7 @@ class SensorStatus():
 class BrickPiInterface():
 
     #Initialise timelimit and logging
-    def __init__(self, timelimit=20, logger=logging.getLogger()):
+    def __init__(self, timelimit=10, logger=logging.getLogger()):
         self.logger = logger
         self.CurrentCommand = "loading"
         self.Configured = False #is the robot yet Configured?
@@ -35,14 +36,14 @@ class BrickPiInterface():
         return
 
     #------------------- Initialise Ports ---------------------------
-    # motorports = {'rightmotor':bp.PORT_D,'leftmotor':bp.PORT_A,'mediummotor':bp.PORT_B }
+    # motorports = {'rightmotor':bp.PORT_A,'leftmotor':bp.PORT_D,'mediummotor':bp.PORT_B }
     # sensorports = { 'thermal':bp.PORT_3,'colour':bp.PORT_2,'ultra':bp.PORT_1,'imu':1 }
     # if some ports do not exist, set as disabled
     # this will take 3-4 seconds to initialise
     def configure_sensors(self, motorports=None, sensorports=None):
         bp = self.BP
         if motorports == None:
-            motorports = {'rightmotor':bp.PORT_D, 'leftmotor':bp.PORT_A, 'mediummotor':bp.PORT_B }
+            motorports = {'rightmotor':bp.PORT_A, 'leftmotor':bp.PORT_D, 'mediummotor':bp.PORT_B }
         if sensorports == None:
             sensorports = { 'thermal':bp.PORT_3,'colour':bp.PORT_2,'ultra':bp.PORT_1,'imu':1 }
         self.thread_running = False #end thread if its still running
@@ -299,7 +300,9 @@ class BrickPiInterface():
     #returns the colour current sensed - "NOREADING", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown"
     def get_colour_sensor(self):
         if self.config['colour'] >= SensorStatus.DISABLED:
+            self.log("COLOR SENSOR DISABLED")
             return "NOREADING"
+            
         bp = self.BP
         value = 0
         colours = ["NOREADING", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown"]
@@ -394,7 +397,7 @@ class BrickPiInterface():
         return elapsedtime
 
     #moves for the specified time (seconds) and power - use negative power to reverse
-    def move_power_time(self, power, t, deviation=0):
+    def move_power_time(self, power, t, deviation=-2):
         self.interrupt_previous_command()
         bp = self.BP
         self.CurrentCommand = "move_power_time"
@@ -449,20 +452,20 @@ class BrickPiInterface():
         if degrees == 0:
             return
         elif degrees < 0:
-            symbol = '>='; limit = degrees+marginoferror
+            symbol = '>='; limit = degrees-marginoferror
         else:
-            symbol = '<='; limit = degrees-marginoferror; power = -power
+            symbol = '<='; limit = degrees+marginoferror; power = -power
         totaldegreesrotated = 0; lastrun = 0
         
         starttime = time.time(); timelimit = starttime + self.timelimit
         #start motors 
         bp.set_motor_power(self.rightmotor, power)
         bp.set_motor_power(self.leftmotor, -power)
-
+        startTime = time.time()
         while eval("totaldegreesrotated" + str(symbol) + "limit") and (self.CurrentCommand == "rotate_power_degrees_IMU") and (time.time() < timelimit) and (self.config['imu'] < SensorStatus.DISABLED):
-            lastrun = time.time()
             gyrospeed = self.get_gyro_sensor_IMU()[2] #rotate around z-axis
-            totaldegreesrotated += (time.time() - lastrun)*gyrospeed
+            
+            totaldegreesrotated = (time.time() - startTime)*-1*gyrospeed
             self.log(totaldegreesrotated)
         self.stop_all()
 
@@ -492,10 +495,10 @@ class BrickPiInterface():
         else:
             symbol = '>='; limit = targetheading+marginoferror; power = -power
         
-        self.log("Starting Heading: " + str(heading) + " with Power: " + str(power))
+        #self.log("Starting Heading: " + str(heading) + " with Power: " + str(power))
 
         expression = 'heading' + symbol + 'limit'
-        self.log('Rotating while ' + 'heading '+ symbol + " " + str(limit))
+        #self.log('Rotating while ' + 'heading '+ symbol + " " + str(limit))
         
         elapsedtime = 0; starttime = time.time(); timelimit = starttime + self.timelimit
          
@@ -596,16 +599,18 @@ class BrickPiInterface():
         time.sleep(2) #gives time to reset??
         return
 
-    
+  
+
+
+
+
 #--------------------------------------------------------------------
 # Only execute if this is the main file, good for testing code
 if __name__ == '__main__':
     logging.basicConfig(filename='logs/robot.log', level=logging.INFO)
-    ROBOT = BrickPiInterface(timelimit=20)  #20 second timelimit before
-    bp = ROBOT.BP; bp.reset_all(); time.sleep(2) #this will halt previou program is still running
+    ROBOT = BrickPiInterface(timelimit=10)  #20 second timelimit before
+    BP = ROBOT.BP; BP.reset_all(); time.sleep(2) #this will halt previou program is still running
     ROBOT.configure_sensors() #This takes 4 seconds
-    input("Press enter to start: ")
-    ROBOT.spin_medium_motor(300)
-    ROBOT.rotate_power_degrees_IMU(17,90)
-    print(ROBOT.get_all_sensors())
-    ROBOT.safe_exit()
+    print(str(round(((ROBOT.get_battery()-8)*25),2))+"%")
+    #input("press enter")
+    ROBOT.automatedSearch()

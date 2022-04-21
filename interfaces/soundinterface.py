@@ -63,6 +63,6 @@ if __name__ == "__main__":
     SOUND.load_mp3("static/music/inspectorgadget.mp3")
     SOUND.say("I am on a mission to hunt aliens.")
     SOUND.play_music(1)
-    SOUND.set_volume(0.6)
+    SOUND.set_volume(1)
     response = input("Press Enter to stop")
     SOUND.stop_music()

@@ -3,6 +3,7 @@
     <div class="page-header" id="banner">
         <div class="row">
             <h1>Robot Dashboard</h1>
+            <h1>{{Colour}}</h1>
         </div>
     </div>
     <div class="row" id="load">
@@ -14,6 +15,15 @@
             <button id="reconfig" type="button" class="btn btn-warning" onclick="new_ajax_helper('/reconfig_IMU');">Reconfigure IMU</button>
             <button id="compass" type="button" class="btn btn-secondary" onclick="new_ajax_helper('/compass');">Set Compass</button>
             <button id="sensors" type="button" class="btn btn-info" onclick="new_ajax_helper('/sensors');">Sensors</button>
+        </div>
+        <div class="row">
+            <button id="shoot" type="button" class="btn btn-secondary" onclick="new_ajax_helper('/shoot');">Shoot</button>
+            <button id="moveforward" type="button" class="btn btn-info" onclick="new_ajax_helper('/moveforward',mapForward);">Move Forward</button>
+            <button id="movebackwards" type="button" class="btn btn-info" onclick="new_ajax_helper('/movebackwards',mapBackward);">Move Backwards</button>
+            <button id="turnLeft" type="button" class="btn btn-info" onclick="new_ajax_helper('/turnLeft');">Turn Left</button>
+            <button id="turnRight" type="button" class="btn btn-info" onclick="new_ajax_helper('/turnRight');">Turn Right</button>
+            <button id="stop" type="button" class="btn btn-info" onclick="new_ajax_helper('/stop');">STOP</button>
+            <button id="searchMaze" type="button" class="btn btn-info" onclick="new_ajax_helper('/searchMaze');">Search Maze</button>
         </div>
         <div class="row">
             <div id="videobox" class="col">
