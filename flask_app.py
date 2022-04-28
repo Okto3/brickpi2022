@@ -159,11 +159,7 @@ def searchMaze():
 def autonomouseSearch():
     data = None
 
-    return jsonify(data)
-
-
-
-
+    return render_template('autonomouseSearch.html')
 
 
 @app.route('/mission', methods=['GET','POST'])

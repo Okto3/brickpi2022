@@ -30485,3 +30485,186 @@ INFO:flask_app:FLASK APP: LOADING THE ROBOT
 INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 09:39:22] "POST /robotload HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 09:39:23] "[35m[1mGET /videofeed HTTP/1.1[0m" 204 -
 INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 09:39:26] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 612-024-204
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 612-024-204
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:01] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:01] "[36mGET /static/js/mapping.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:01] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:01] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:01] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:46] "POST /robotload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:46] "[35m[1mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:56:57] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:13] "[35m[1mGET /sensorView HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:13] "GET /sensorView?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:14] "GET /sensorView?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:14] "GET /sensorView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:14] "GET /sensorView?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:18] "GET /mission HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:18] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:18] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:18] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:18] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2022 07:57:42] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 612-024-204
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:05] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:05] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:05] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:05] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:40] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:40] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:40] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:40] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2022 10:42:55] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:00:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:00:08] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:00:08] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:00:08] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:00:08] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:00:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:12] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:13] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:13] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:13] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:flask_app:[{'userid': 1, 'name': 'admin', 'email': 'admin@admin', 'password': 'admin', 'phoneNumber': None}]
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:25] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:25] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:25] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:26] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:26] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:26] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:26] "[36mGET /static/js/mapping.js HTTP/1.1[0m" 304 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:36] "POST /robotload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:04:36] "[35m[1mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:05:05] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:05:09] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:06:47] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\22ape\\OneDrive\\Documents\\GitHub\\brickpi2022\\flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\22ape\\OneDrive\\Documents\\GitHub\\brickpi2022\\flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\22ape\\OneDrive\\Documents\\GitHub\\brickpi2022\\flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\22ape\\OneDrive\\Documents\\GitHub\\brickpi2022\\flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\22ape\\OneDrive\\Documents\\GitHub\\brickpi2022\\flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:34] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:35] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:35] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:35] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:35] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:44] "[36mGET /static/js/mapping.js HTTP/1.1[0m" 304 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:46] "POST /robotload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:08:46] "[35m[1mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\22ape\\OneDrive\\Documents\\GitHub\\brickpi2022\\flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 886-286-671
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.10.72.118:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:33] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:34] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:34] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:34] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:34] "[36mGET /static/js/mapping.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:34] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:36] "POST /robotload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:36] "[35m[1mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:37] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:37] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:37] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:37] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:13:37] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:14:13] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:14:13] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:14:13] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:14:13] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:14:13] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:19] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:19] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:19] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:19] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:19] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:50] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:50] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:51] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:51] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:51] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:58] "[35m[1mPOST /searchMaze HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:16:48] "GET /autonomouseSearch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:16:48] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -

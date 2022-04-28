@@ -3,7 +3,9 @@
     <div class="page-header" id="banner">
         <div class="row">
             <h1>Robot Sensor View</h1>
-
+            <button id="reconfig" type="button" class="btn btn-warning" onclick="new_ajax_helper('/reconfig_IMU');">Reconfigure IMU</button>
+            <button id="compass" type="button" class="btn btn-secondary" onclick="new_ajax_helper('/compass');">Set Compass</button>
+            <button id="sensors" type="button" class="btn btn-info" onclick="new_ajax_helper('/sensors');">Sensors</button>
             <table class="table">
                 <thead>
                   <tr>
