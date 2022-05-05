@@ -3,7 +3,6 @@
 from interfaces.brickpiinterface import *
 import global_vars as GLOBALS
 import logging
-import math
 
 class Robot(BrickPiInterface):
     
@@ -56,7 +55,7 @@ class Robot(BrickPiInterface):
 
     def turnLeft(self,angle,speed=100,power=100):   #power percent, degrees/second, degrees
         BP = self.BP
-        degrees = angle*2-2
+        degrees = angle*2+4
         try:
             BP.offset_motor_encoder(BP.PORT_A, BP.get_motor_encoder(BP.PORT_A)) # reset encoder A
             BP.offset_motor_encoder(BP.PORT_D, BP.get_motor_encoder(BP.PORT_D)) # reset encoder D
@@ -136,7 +135,11 @@ class Robot(BrickPiInterface):
                 else:
                     walls.append(0)
                 self.turnLeft(90)
-                currentAngle -= 90   
+                currentAngle -= 90  
+                print(self.get_thermal_sensor())
+                if self.get_thermal_sensor() > 26:  # indentified victim
+                    print("deploy medical package") 
+                    self.spin_medium_motor(2000)
                 #print(currentAngle)
             print(walls)
 

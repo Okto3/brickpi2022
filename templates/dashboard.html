@@ -10,17 +10,14 @@
         <button type="button" class="btn btn-success" onclick="load_robot();">Load Robot</button>
     </div>   
     <div id="dashboard">
+        
         <div class="row">
-            <button id="shutdown" type="button" class="btn btn-danger" onclick="shutdown_robot();">Shutdown Robot</button>
-            
-        </div>
-        <div class="row">
-            <button id="shoot" type="button" class="btn btn-secondary" onclick="new_ajax_helper('/shoot');">Shoot</button>
-            <button id="moveforward" type="button" class="btn btn-info" onclick="new_ajax_helper('/moveforward',mapForward);">Move Forward</button>
-            <button id="movebackwards" type="button" class="btn btn-info" onclick="new_ajax_helper('/movebackwards',mapBackward);">Move Backwards</button>
-            <button id="turnLeft" type="button" class="btn btn-info" onclick="new_ajax_helper('/turnLeft');">Turn Left</button>
-            <button id="turnRight" type="button" class="btn btn-info" onclick="new_ajax_helper('/turnRight');">Turn Right</button>
-            <button id="stop" type="button" class="btn btn-info" onclick="new_ajax_helper('/stop');">STOP</button>
+            <button id="shoot" type="button" class="btn btn-secondary" style="background-color: rgb(22, 83, 152);" onclick="new_ajax_helper('/shoot');">Shoot</button>
+            <button id="moveforward" type="button" class="btn btn-info" style="background-color: rgb(22, 83, 152);" onclick="new_ajax_helper('/moveforward',mapForward);">Move Forward</button>
+            <button id="movebackwards" type="button" class="btn btn-info" style="background-color: rgb(22, 83, 152);" onclick="new_ajax_helper('/movebackwards',mapBackward);">Move Backwards</button>
+            <button id="turnLeft" type="button" class="btn btn-info" style="background-color: rgb(22, 83, 152);" onclick="new_ajax_helper('/turnLeft');">Turn Left</button>
+            <button id="turnRight" type="button" class="btn btn-info" style="background-color: rgb(22, 83, 152);" onclick="new_ajax_helper('/turnRight');">Turn Right</button>
+            <button id="stop" type="button" class="btn btn-info" style="background-color: rgb(22, 83, 152);" onclick="new_ajax_helper('/stop');">STOP</button>
             
         </div>
         <div class="row">

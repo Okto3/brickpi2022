@@ -157,9 +157,10 @@ def searchMaze():
 
 @app.route('/autonomouseSearch', methods=['GET','POST'])
 def autonomouseSearch():
-    data = None
+    path = GLOBALS.DATABASE.ViewQuery("SELECT missionMap FROM mission ORDER BY missionID DESC LIMIT 1")
+    #data = None
 
-    return render_template('autonomouseSearch.html')
+    return render_template('autonomouseSearch.html', data = path)
 
 
 @app.route('/mission', methods=['GET','POST'])

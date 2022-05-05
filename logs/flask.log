@@ -30668,3 +30668,2865 @@ INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:51] "[36mGET /static/js/custom.j
 INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:15:58] "[35m[1mPOST /searchMaze HTTP/1.1[0m" 500 -
 INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:16:48] "GET /autonomouseSearch HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [29/Apr/2022 09:16:48] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:30] "[37mGET /static/css/theme.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:30] "[37mGET /static/css/custom.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:31] "[37mGET /static/js/custom.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:31] "[37mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_app:[{'password': 'admin', 'userid': 1, 'email': 'admin@admin', 'phoneNumber': None, 'name': 'admin'}]
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:36] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:36] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:36] "[37mGET /static/js/mapping.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:36] "[37mGET /static/js/dashboard.js HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:THERMAL READ: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:46] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:46] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:48] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:51] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:54] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:54] "[37mGET /static/js/sensor.js HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:28:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Move around the robot to calibrate the Compass Sensor...
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 1
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU GYRO: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 2
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU: 'int' object is not iterable
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 3
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 4
+INFO:flask_app:IMU Calibration Error: 'int' object is not iterable
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU GYRO: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Temp: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 5
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 6
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 7
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 8
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibrating IMU. Status: 0 Time: 9
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Calibration Error: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU: 'int' object is not iterable
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:Calibration unsuccessful. Please rotate in 3 dimensions
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:14] "[37mPOST /compass HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU GYRO: 'int' object is not iterable
+INFO:flask_app:IMU Temp: [Errno 5] Input/output error
+INFO:flask_app:IMU Orientation: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:29:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:30:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:30:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:30:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:30:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:30:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:22] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:26] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:26] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:30] "[35m[1mGET /sensorView HTTP/1.1[0m" 500 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:30] "[37mGET /sensorView?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:30] "[37mGET /sensorView?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:30] "[37mGET /sensorView?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:30] "[37mGET /sensorView?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:31] "[37mGET /sensorView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:31] "[37mGET /sensorView?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:flask_app:THERMAL READ: get_sensor error: Invalid sensor data
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:34] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:34] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:34] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:36] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU GYRO: 'int' object is not iterable
+INFO:flask_app:IMU Temp: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:37:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:38:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [29/Apr/2022 09:39:50] "[37mPOST /sensINFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[37mGET /static/css/theme.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[37mGET /static/css/custom.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[37mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:04] "[37mGET /static/js/custom.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_app:[{'userid': 1, 'phoneNumber': None, 'name': 'admin', 'email': 'admin@admin', 'password': 'admin'}]
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:48] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:48] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:48] "[37mGET /static/js/dashboard.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:48] "[37mGET /static/js/mapping.js HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:THERMAL READ: get_sensor error: Invalid sensor data
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:57] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:17:57] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:45:35] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:45:36] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:45:47] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:45:49] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:45:50] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:04] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:04] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.004983007907867432
+INFO:flask_app:0.007273763418197632
+INFO:flask_app:0.017652064561843872
+INFO:flask_app:0.010517939925193787
+INFO:flask_app:0.022914379835128784
+INFO:flask_app:0.01235353946685791
+INFO:flask_app:0.04025110602378845
+INFO:flask_app:-0.014415383338928223
+INFO:flask_app:0.015310049057006836
+INFO:flask_app:0.01624847948551178
+INFO:flask_app:-0.0
+INFO:flask_app:-0.018169045448303223
+INFO:flask_app:-0.01905660331249237
+INFO:flask_app:-0.03986865282058716
+INFO:flask_app:0.04176813364028931
+INFO:flask_app:-0.0
+INFO:flask_app:0.022728651762008667
+INFO:flask_app:0.023662343621253967
+INFO:flask_app:-0.0
+INFO:flask_app:-0.02550812065601349
+INFO:flask_app:0.026486679911613464
+INFO:flask_app:-0.054851412773132324
+INFO:flask_app:-0.028402209281921387
+INFO:flask_app:-0.029316753149032593
+INFO:flask_app:-0.060651957988739014
+INFO:flask_app:0.031250596046447754
+INFO:flask_app:-0.032183751463890076
+INFO:flask_app:-0.06629911065101624
+INFO:flask_app:0.03408743441104889
+INFO:flask_app:0.035098597407341
+INFO:flask_app:-0.0
+INFO:flask_app:0.07465633749961853
+INFO:flask_app:-0.03836916387081146
+INFO:flask_app:-0.03928017616271973
+INFO:flask_app:0.08060747385025024
+INFO:flask_app:-0.04124237596988678
+INFO:flask_app:0.04218889772891998
+INFO:flask_app:-0.08625656366348267
+INFO:flask_app:-0.044124677777290344
+INFO:flask_app:-0.04533536732196808
+INFO:flask_app:0.0927698016166687
+INFO:flask_app:-0.09461596608161926
+INFO:flask_app:0.048230960965156555
+INFO:flask_app:-0.0
+INFO:flask_app:-0.05023367702960968
+INFO:flask_app:-0.0
+INFO:flask_app:-0.052145153284072876
+INFO:flask_app:-0.0
+INFO:flask_app:0.05410763621330261
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.11517810821533203
+INFO:flask_app:-0.058781906962394714
+INFO:flask_app:0.060038626194000244
+INFO:flask_app:-0.061128780245780945
+INFO:flask_app:-0.0
+INFO:flask_app:-0.06347590684890747
+INFO:flask_app:0.12969112396240234
+INFO:flask_app:-0.1986718475818634
+INFO:flask_app:-0.06729035079479218
+INFO:flask_app:-0.06844280660152435
+INFO:flask_app:-0.0
+INFO:flask_app:-0.1417940855026245
+INFO:flask_app:-0.07210230827331543
+INFO:flask_app:0.14635270833969116
+INFO:flask_app:-0.07487449049949646
+INFO:flask_app:-0.0
+INFO:flask_app:0.07802493870258331
+INFO:flask_app:0.15937677025794983
+INFO:flask_app:0.16158634424209595
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.08342519402503967
+INFO:flask_app:-0.08437745273113251
+INFO:flask_app:0.2562553435564041
+INFO:flask_app:-0.0
+INFO:flask_app:-0.08729813992977142
+INFO:flask_app:-0.0
+INFO:flask_app:0.1789042353630066
+INFO:flask_app:0.09040993452072144
+INFO:flask_app:-0.0
+INFO:flask_app:-0.09233857691287994
+INFO:flask_app:-0.186644047498703
+INFO:flask_app:0.09425729513168335
+INFO:flask_app:-0.0
+INFO:flask_app:-0.09628331661224365
+INFO:flask_app:-0.0
+INFO:flask_app:0.09812870621681213
+INFO:flask_app:0.29699331521987915
+INFO:flask_app:0.2997204065322876
+INFO:flask_app:0.10087667405605316
+INFO:flask_app:0.10184231400489807
+INFO:flask_app:-0.20548507571220398
+INFO:flask_app:-0.20757564902305603
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:07] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:07] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:12] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:12] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:22] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:22] "[37mGET /static/js/sensor.js HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:30] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:53] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:46:54] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:31] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:32] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:48] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:50] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:51] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:53] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:51:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:11] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:52:15] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:02] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:53:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:54:59] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:01] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:02] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:06] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:26] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:26] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:28] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:55:30] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:17] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:19] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:21] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:24] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:24] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:27] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:51] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:56:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:23] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly red
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:23] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:25] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:26] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:29] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:57:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:58:03] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly red
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:58:04] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:58:13] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:58:15] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly red
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:58:15] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:59:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly red
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:59:03] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 12:59:05] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 13:00:00] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 13:00:01] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 13:00:04] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 13:00:11] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 13:00:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [01/May/2022 13:00:13] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:12] "[37mGET /static/css/custom.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:12] "[37mGET /static/css/theme.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:12] "[37mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:12] "[37mGET /static/js/custom.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_app:[{'name': 'admin', 'email': 'admin@admin', 'password': 'admin', 'phoneNumber': None, 'userid': 1}]
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:18] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:18] "[37mGET /static/js/dashboard.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:18] "[37mGET /static/js/mapping.js HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:THERMAL READ: get_sensor error: Invalid sensor data
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:27] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:46:27] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:47:03] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:47:03] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0
+INFO:flask_app:0.007289856672286987
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.006470143795013428
+INFO:flask_app:0.014899909496307373
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.020538777112960815
+INFO:flask_app:0.02239289879798889
+INFO:flask_app:0.012138575315475464
+INFO:flask_app:0.013013526797294617
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0168645977973938
+INFO:flask_app:-0.0
+INFO:flask_app:0.018689557909965515
+INFO:flask_app:0.05890935659408569
+INFO:flask_app:0.041096031665802
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.02336864173412323
+INFO:flask_app:-0.04852953553199768
+INFO:flask_app:0.10146534442901611
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.028272300958633423
+INFO:flask_app:-0.0
+INFO:flask_app:0.030129551887512207
+INFO:flask_app:-0.0
+INFO:flask_app:0.03208427131175995
+INFO:flask_app:-0.0
+INFO:flask_app:0.033974066376686096
+INFO:flask_app:0.035043612122535706
+INFO:flask_app:0.03592170774936676
+INFO:flask_app:-0.0
+INFO:flask_app:0.037649184465408325
+INFO:flask_app:0.07727068662643433
+INFO:flask_app:-0.0
+INFO:flask_app:0.08098012208938599
+INFO:flask_app:0.041346967220306396
+INFO:flask_app:0.08440718054771423
+INFO:flask_app:0.04310484230518341
+INFO:flask_app:0.04413105547428131
+INFO:flask_app:-0.0
+INFO:flask_app:-0.045983731746673584
+INFO:flask_app:0.14065629243850708
+INFO:flask_app:-0.0
+INFO:flask_app:0.09877985715866089
+INFO:flask_app:-0.05059470236301422
+INFO:flask_app:0.051746025681495667
+INFO:flask_app:0.053207606077194214
+INFO:flask_app:-0.05441012978553772
+INFO:flask_app:-0.0
+INFO:flask_app:0.05707526206970215
+INFO:flask_app:0.05825731158256531
+INFO:flask_app:0.1187029480934143
+INFO:flask_app:-0.06059986352920532
+INFO:flask_app:-0.18570725619792938
+INFO:flask_app:-0.12617284059524536
+INFO:flask_app:0.12887218594551086
+INFO:flask_app:-0.0
+INFO:flask_app:0.1338217556476593
+INFO:flask_app:-0.0
+INFO:flask_app:0.06943711638450623
+INFO:flask_app:-0.07053537666797638
+INFO:flask_app:-0.0
+INFO:flask_app:0.07236765325069427
+INFO:flask_app:-0.0
+INFO:flask_app:-0.07419808208942413
+INFO:flask_app:-0.0
+INFO:flask_app:0.07626251876354218
+INFO:flask_app:0.07726792991161346
+INFO:flask_app:0.23440074920654297
+INFO:flask_app:0.07903952896595001
+INFO:flask_app:0.1600106954574585
+INFO:flask_app:-0.0
+INFO:flask_app:-0.1638936698436737
+INFO:flask_app:-0.16561508178710938
+INFO:flask_app:-0.1676374077796936
+INFO:flask_app:0.16963085532188416
+INFO:flask_app:-0.08572307229042053
+INFO:flask_app:0.17328718304634094
+INFO:flask_app:-0.0
+INFO:flask_app:-0.17706918716430664
+INFO:flask_app:0.0894027054309845
+INFO:flask_app:IMU GYRO: 'int' object is not iterable
+INFO:flask_app:-1435.8702886104584
+INFO:flask_app:-0.09071210026741028
+INFO:flask_app:0.09169028699398041
+INFO:flask_app:0.09256313741207123
+INFO:flask_app:-0.0
+INFO:flask_app:0.0945921391248703
+INFO:flask_app:-0.0
+INFO:flask_app:0.09643031656742096
+INFO:flask_app:0.0974736213684082
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.40064454078674316
+INFO:flask_app:0.10119548439979553
+INFO:flask_app:-0.1020556390285492
+INFO:flask_app:-0.0
+INFO:flask_app:0.10401540994644165
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.10772903263568878
+INFO:flask_app:-0.0
+INFO:flask_app:0.10972225666046143
+INFO:flask_app:0.2215680480003357
+INFO:flask_app:0.11736932396888733
+INFO:flask_app:0.2382081151008606
+INFO:flask_app:0.2405742108821869
+INFO:flask_app:0.12162458896636963
+INFO:flask_app:-0.0
+INFO:flask_app:0.12388919293880463
+INFO:flask_app:-0.2501237392425537
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.12843744456768036
+INFO:flask_app:0.12958870828151703
+INFO:flask_app:0.13080869615077972
+INFO:flask_app:-0.13194717466831207
+INFO:flask_app:0.13339394330978394
+INFO:flask_app:-0.1351347416639328
+INFO:flask_app:0.13657279312610626
+INFO:flask_app:-0.0
+INFO:flask_app:IMU GYRO: [Errno 5] Input/output error
+INFO:flask_app:-2230.215414762497
+INFO:flask_app:-9.032782554626465
+INFO:flask_app:0.14222970604896545
+INFO:flask_app:-0.0
+INFO:flask_app:-0.14445552229881287
+INFO:flask_app:-0.14535145461559296
+INFO:flask_app:0.43913863599300385
+INFO:flask_app:0.1473836451768875
+INFO:flask_app:-0.29657691717147827
+INFO:flask_app:0.14941100776195526
+INFO:flask_app:0.15028724074363708
+INFO:flask_app:0.1512952595949173
+INFO:flask_app:0.15235409140586853
+INFO:flask_app:-0.45989178121089935
+INFO:flask_app:0.4627440869808197
+INFO:flask_app:0.15512129664421082
+INFO:flask_app:0.15616047382354736
+INFO:flask_app:0.31425613164901733
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.32999202609062195
+INFO:flask_app:0.3319486081600189
+INFO:flask_app:-0.0
+INFO:flask_app:-0.16794081032276154
+INFO:flask_app:-0.0
+INFO:flask_app:-0.16986985504627228
+INFO:flask_app:-0.17081961035728455
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.17378002405166626
+INFO:flask_app:0.17465779185295105
+INFO:flask_app:-0.0
+INFO:flask_app:-0.17661653459072113
+INFO:flask_app:0.17760156095027924
+INFO:flask_app:-0.17848466336727142
+INFO:flask_app:0.3591785430908203
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.5474341660737991
+INFO:flask_app:0.3669751286506653
+INFO:flask_app:-0.18441109359264374
+INFO:flask_app:-0.18541719019412994
+INFO:flask_app:0.18636846542358398
+INFO:flask_app:0.18791630864143372
+INFO:flask_app:0.37870728969573975
+INFO:flask_app:-0.19054199755191803
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.3881317973136902
+INFO:flask_app:-0.0
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:47:10] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:47:10] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:47:57] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:THERMAL READ: get_sensor error: Invalid sensor data
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:48:04] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:48:04] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:48:10] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:48:10] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:53:56] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:53:57] "[37mGET /static/js/sensor.js HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:53:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOUR: get_sensor error: Invalid sensor data
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:53:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:COLOR SENSOR DISABLED
+INFO:flask_app:IMU Orientation: [Errno 5] Input/output error
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 16:54:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+                                                                                                                                                            INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:33] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:33] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:33] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:Cannot initialise IMU Sensor now trying to reconfig
+INFO:flask_app:IMU RECONFIG HAS FAILED 'int' object has no attribute 'BNO055'
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:IMU RECONFIG HAS FAILED 'int' object has no attribute 'BNO055'
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:41] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:41] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:45] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:46] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:05:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU RECONFIG HAS FAILED 'int' object has no attribute 'BNO055'
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:01] "[37mPOST /reconfig_IMU HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:12] "[37mPOST /compass HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:38] "[37mPOST /compass HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:06:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:29] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:52] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:07:52] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:01] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly blue
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:01] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:03] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly blue
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:18] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:22] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:22] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.002366691827774048
+INFO:flask_app:-0.004848390817642212
+INFO:flask_app:0.003482446074485779
+INFO:flask_app:-0.0048598796129226685
+INFO:flask_app:0.06557723879814148
+INFO:flask_app:0.8533790707588196
+INFO:flask_app:IMU GYRO: 'int' object is not iterable
+INFO:flask_app:-129.07363986968994
+INFO:flask_app:IMU GYRO: [Errno 5] Input/output error
+INFO:flask_app:-134.36171579360962
+INFO:flask_app:9.769917085766792
+INFO:flask_app:14.863110154867172
+INFO:flask_app:18.61082933843136
+INFO:flask_app:20.374467372894287
+INFO:flask_app:22.54273295402527
+INFO:flask_app:23.64970600605011
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:24] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0010211765766143799
+INFO:flask_app:-0.002266034483909607
+INFO:flask_app:0.006797730922698975
+INFO:flask_app:-0.0
+INFO:flask_app:0.42612791061401367
+INFO:flask_app:2.101973310112953
+INFO:flask_app:6.700756788253784
+INFO:flask_app:11.689345687627792
+INFO:flask_app:16.877940148115158
+INFO:flask_app:20.832719922065735
+INFO:flask_app:23.780322939157486
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:25] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:0.0019724667072296143
+INFO:flask_app:0.005779623985290527
+INFO:flask_app:-0.0
+INFO:flask_app:0.015402019023895264
+INFO:flask_app:0.11674368381500244
+INFO:flask_app:0.7491507232189178
+INFO:flask_app:1.8037695288658142
+INFO:flask_app:5.704193904995918
+INFO:flask_app:8.647379875183105
+INFO:flask_app:13.787901669740677
+INFO:flask_app:17.657035693526268
+INFO:flask_app:21.16891986131668
+INFO:flask_app:23.107142746448517
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:26] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0038599371910095215
+INFO:flask_app:-0.0055030882358551025
+INFO:flask_app:0.02346217632293701
+INFO:flask_app:0.061261892318725586
+INFO:flask_app:0.2662001848220825
+INFO:flask_app:1.3173680305480957
+INFO:flask_app:2.7772458493709564
+INFO:flask_app:6.638936698436737
+INFO:flask_app:9.3461232483387
+INFO:flask_app:13.341844081878662
+INFO:flask_app:15.961153864860535
+INFO:flask_app:19.348873794078827
+INFO:flask_app:21.32728524506092
+INFO:flask_app:21.48926903307438
+INFO:flask_app:21.76343536376953
+INFO:flask_app:20.095210298895836
+INFO:flask_app:20.27955973148346
+INFO:flask_app:20.13977837562561
+INFO:flask_app:21.19345000386238
+INFO:flask_app:23.357776179909706
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:27] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:0.0035905838012695312
+INFO:flask_app:-0.010688677430152893
+INFO:flask_app:0.009075656533241272
+INFO:flask_app:0.01974053680896759
+INFO:flask_app:0.06917652487754822
+INFO:flask_app:0.7887910604476929
+INFO:flask_app:1.560911163687706
+INFO:flask_app:4.555982351303101
+INFO:flask_app:7.256908267736435
+INFO:flask_app:12.262404128909111
+INFO:flask_app:15.30732448399067
+INFO:flask_app:17.886629194021225
+INFO:flask_app:21.0932157933712
+INFO:flask_app:23.1381618976593
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:27] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:0.0026835501194000244
+INFO:flask_app:0.018453747034072876
+INFO:flask_app:-0.008131429553031921
+INFO:flask_app:0.050368309020996094
+INFO:flask_app:0.3423681855201721
+INFO:flask_app:0.6289641559123993
+INFO:flask_app:2.405329927802086
+INFO:flask_app:4.345142841339111
+INFO:flask_app:8.780533611774445
+INFO:flask_app:11.939877107739449
+INFO:flask_app:16.24455736577511
+INFO:flask_app:18.49810755252838
+INFO:flask_app:19.917217135429382
+INFO:flask_app:21.855674654245377
+INFO:flask_app:21.372521370649338
+INFO:flask_app:21.22951376438141
+INFO:flask_app:22.35479147732258
+INFO:flask_app:23.962508887052536
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:28] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:0.0018323063850402832
+INFO:flask_app:-0.009172335267066956
+INFO:flask_app:0.002755671739578247
+INFO:flask_app:-0.011306673288345337
+INFO:flask_app:-0.0
+INFO:flask_app:0.09452803432941437
+INFO:flask_app:0.43997281789779663
+INFO:flask_app:2.0670379400253296
+INFO:flask_app:3.9812651872634888
+INFO:flask_app:9.39842090010643
+INFO:flask_app:12.825585946440697
+INFO:flask_app:16.769274070858955
+INFO:flask_app:19.116639643907547
+INFO:flask_app:21.307377815246582
+INFO:flask_app:24.301269114017487
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:29] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:0.0033347010612487793
+INFO:flask_app:0.005624637007713318
+INFO:flask_app:0.008291691541671753
+INFO:flask_app:0.01819901168346405
+INFO:flask_app:0.23165541887283325
+INFO:flask_app:0.96314737200737
+INFO:flask_app:2.0355404317379
+INFO:flask_app:6.36968021094799
+INFO:flask_app:12.817495584487915
+INFO:flask_app:15.369063198566437
+INFO:flask_app:20.220215320587158
+INFO:flask_app:23.586581885814667
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:29] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.005697369575500488
+INFO:flask_app:0.0018859952688217163
+INFO:flask_app:0.014026984572410583
+INFO:flask_app:-0.019630417227745056
+INFO:flask_app:0.1830197274684906
+INFO:flask_app:0.5512211173772812
+INFO:flask_app:1.2174932956695557
+INFO:flask_app:4.1595169454813
+INFO:flask_app:6.96365612745285
+INFO:flask_app:11.636407315731049
+INFO:flask_app:14.287840783596039
+INFO:flask_app:17.733946174383163
+INFO:flask_app:19.777925312519073
+INFO:flask_app:22.654139071702957
+INFO:flask_app:24.62131118774414
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:30] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:flask_app:0.0028197169303894043
+INFO:flask_app:-0.005999565124511719
+INFO:flask_app:-0.00443693995475769
+INFO:flask_app:-0.0056601762771606445
+INFO:flask_app:-0.1838768720626831
+INFO:flask_app:-0.41286103427410126
+INFO:flask_app:-2.9727195501327515
+INFO:flask_app:-5.610711827874184
+INFO:flask_app:-12.274976029992104
+INFO:flask_app:-17.148811519145966
+INFO:flask_app:-19.35042119026184
+INFO:flask_app:-21.123958587646484
+INFO:flask_app:-23.089870810508728
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:32] "[37mPOST /turnRight HTTP/1.1[0m" 200 -
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:-0.0
+INFO:flask_app:0.036018118262290955
+INFO:flask_app:0.20754799246788025
+INFO:flask_app:2.0994519144296646
+INFO:flask_app:4.647769495844841
+INFO:flask_app:12.783727884292603
+INFO:flask_app:16.31826889514923
+INFO:flask_app:19.40421810746193
+INFO:flask_app:24.676328390836716
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:33] "[37mPOST /turnLeft HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:37] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:37] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:08:53] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:09:58] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:09:59] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:01] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:01] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:01] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:01] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:02] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:02] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:02] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:02] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:03] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:03] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:04] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:04] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:04] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:04] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:05] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:05] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:05] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:05] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:05] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:06] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:06] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:07] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:07] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:07] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:07] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:07] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:08] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:08] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:08] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:08] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:09] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:09] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:09] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:09] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:09] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:10] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:10] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:10] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:11] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:11] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:11] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:11] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:11] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:12] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:10:12] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:44] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:48] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:48] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:56] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:56] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:58] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:11:59] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:42] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:46] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:12:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:10] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:14] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:23] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU Acceleration: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:flask_app:IMU: [Errno 5] Input/output error
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:13:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU: 'int' object is not iterable
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:14:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:06] "[37mGET /mission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:15:08] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:19:40] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+ERROR:flask_app:DATABASE ERROR: no such column: ID
+ERROR:flask_app:SELECT missionMap FROM mission ORDER BY ID DESC LIMIT 1
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:21:04] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:21:27] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:21:45] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:07] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:09] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:18] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:18] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:20] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:39] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:44] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:52] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:52] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:52] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:56] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:59] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:22:59] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:23:04] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:24:03] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.1.1.107 - - [02/May/2022 17:25:05] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:39] "[37mGET /static/css/theme.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:39] "[37mGET /static/css/custom.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:39] "[37mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:39] "[37mGET /static/js/custom.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_app:[{'email': 'admin@admin', 'password': 'admin', 'phoneNumber': None, 'userid': 1, 'name': 'admin'}]
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:50] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:50] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:50] "[37mGET /static/js/mapping.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:50] "[37mGET /static/js/dashboard.js HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:58] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 11:59:58] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:00:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:00:06] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:01:20] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:01:29] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:01:29] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:01:34] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/robot.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:02:58] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:00] "[37mPOST /searchMaze HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:02] "[37mPOST /searchMaze HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:03] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:05] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:08] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:12] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:14] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:16] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU GYRO: 'int' object is not iterable
+INFO:flask_app:IMU Temp: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:03:16] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/robot.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug: * Detected change in '/home/pi/Desktop/brickpi2022/robot.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:18] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:20] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:23] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:24] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:32] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:32] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:04:42] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:05:36] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:05:46] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:05:46] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:05:46] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:06:53] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:06:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:07:04] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:07:04] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:07:44] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:11:07] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:11:08] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:11:38] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:11:38] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:11:49] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:12:45] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:13:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:13:17] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:13:19] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:24:55] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:24:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:04] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:04] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:05] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:06] "[37mGET /static/js/sensor.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:25:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:45] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:46] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:47] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:48] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:49] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:26:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU Orientation: 'int' object is not iterable
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:42] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:43] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:27:44] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[32mGET /sensorView HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:09] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:19] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:30:19] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:09] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:flask_app:IMU Temp: [Errno 5] Input/output error
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:32:25] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:34:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:34:05] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:34:13] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:34:13] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:34:19] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 643-449-026
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:36:58] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:09] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:21] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:23] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:32] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:33] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:33] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:36] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:36] "[37mPOST /movebackwards HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:38] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:38] "[37mPOST /moveforward HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:43] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:54] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:41:55] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:42:06] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:42:06] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:42:32] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:42:32] "[37mPOST /stop HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:42:32] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:42:41] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:43:26] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:43:40] "[37mPOST /shoot HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:44:08] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:46:19] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:46:22] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:46:27] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:48:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:48:49] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:48:49] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:49:45] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:52:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:52:11] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:52:11] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:52:16] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:53:58] "[37mPOST /searchMaze HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:54:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:54:08] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:54:09] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:54:16] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-640-712
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:59:19] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:59:29] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:59:29] "[37mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 12:59:33] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:05] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:09] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:10] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:11] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:12] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:13] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:14] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:15] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:16] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:17] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:18] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:19] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:20] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:21] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:22] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:23] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:24] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:25] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:26] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:27] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:28] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:00:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-640-712
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:50] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:51] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:52] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:53] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:54] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:55] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:56] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:57] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:58] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:01:58] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:02:06] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:02:06] "[37mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:03:19] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:03:57] "[37mGET /sensorView HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:03:59] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:00] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:01] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:02] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:03] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:04] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:05] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:06] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:07] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:08] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-640-712
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:29] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:30] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:31] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:32] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:33] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:34] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:35] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:36] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:37] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:38] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:39] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:40] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:41] "[37mPOST /sensors HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:flask_app:FLASK APP: CAMERA NOT WORKING
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:48] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:04:49] "[37mGET /videofeed HTTP/1.1[0m" 204 -
+INFO:werkzeug:10.10.72.118 - - [04/May/2022 13:05:26] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:14] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:14] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:14] "[36mGET /static/js/new_ajax_helper.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:14] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_app:[{'email': 'admin@admin', 'password': 'admin', 'phoneNumber': None, 'userid': 1, 'name': 'admin'}]
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:35] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:35] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:36] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:36] "[36mGET /static/js/mapping.js HTTP/1.1[0m" 304 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:45] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:13:45] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:15:43] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:15:49] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:15:54] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:17:44] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:17:44] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:flask_app:LOADING CAMERA
+INFO:root:CAMERA INTERFACE: Started Camera Thread
+INFO:flask_app:FLASK APP: LOADING THE ROBOT
+INFO:flask_app:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:flask_app:FLASK APP: LOADING THE SOUND
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:17:53] "[37mPOST /robotload HTTP/1.1[0m" 200 -
+INFO:flask_app:FLASK APP: READING CAMERA
+INFO:root:mostly green
+INFO:flask_app:None
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:17:53] "[37mGET /videofeed HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:17:58] "[37mGET /autonomouseSearch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 250-863-970
+INFO:werkzeug:10.10.72.118 - - [06/May/2022 09:40:03] "[37mGET /mission HTTP/1.1[0m" 200 -
