@@ -63,7 +63,6 @@ def robotload():
     if not GLOBALS.SOUND and GLOBALS.ROBOT.BP != "Cheese.":
         log("FLASK APP: LOADING THE SOUND")
         GLOBALS.SOUND = soundinterface.SoundInterface()
-        GLOBALS.SOUND.say("I am ready")
     if GLOBALS.ROBOT.BP != "Cheese.":
         sensordict = GLOBALS.ROBOT.get_all_sensors()
     return jsonify(sensordict)
@@ -145,6 +144,7 @@ def turnRight():
 def stop():
     data = {}
     if GLOBALS.ROBOT:
+        GLOBALS.searchingForVictims = False
         GLOBALS.ROBOT.stop_all()
     return jsonify(data)
 
@@ -152,6 +152,7 @@ def stop():
 def searchMaze():
     data = {}
     if GLOBALS.ROBOT:
+        GLOBALS.searchingForVictims = True
         GLOBALS.ROBOT.automatedSearch()
     return jsonify(data)
 

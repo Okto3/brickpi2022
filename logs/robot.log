@@ -25979,3 +25979,77 @@ INFO:root:THERMAL READ: get_sensor error: Invalid sensor data
 INFO:root:THERMAL READ: get_sensor error: Invalid sensor data
 INFO:root:THERMAL READ: get_sensor error: Invalid sensor data
 INFO:root:THERMAL READ: get_sensor error: Invalid sensor data
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:THERMAL READ: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:THERMAL READ: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:ULTRASONIC: get_sensor error: Invalid sensor data
+INFO:root:THERMAL READ: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:THERMAL READ: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:ULTRASONIC: get_sensor error: Sensor not configured or not supported.
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread
+INFO:root:BRICKPIINTERFACE: Starting thermal sensor thread

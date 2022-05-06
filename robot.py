@@ -99,48 +99,34 @@ class Robot(BrickPiInterface):
 
     def automatedSearch(self):
         print(str(round(((self.get_battery()-8)*25),2))+"%")
-        #input("press enter")
-        direction = 0
-        updatedPossibleExits = []
 
-        map = []    #get the map going
         tileMap = []
-        for j in range(15):
-            row = []
-            for i in range(15):
-                tile = []
-                for k in range(5):
-                    tile.append(0)
-                row.append(tile)
-            map.append(row)
         for l in range(15):
             tileRow = []
             for m in range(15):
-                tileRow.append(0)
+                tileRow.append('---')
             tileMap.append(tileRow)
-        x = 7; y = 7
-        map[7][7][0] = True
-        tileMap[7][7] = 1
-        #for i in range(len(map)):
-        #    print(map[i])
+        currentX = 7; currentY = 7
 
         currentAngle = 0    #left: -ve, right: +ve
-        while True:
+        while GLOBALS.searchingForVictims == True:
             walls = []
             for i in range(4):  #scan
-                time.sleep(0.5)
-                #print(self.get_ultra_sensor())
-                if self.get_ultra_sensor() < 25 or self.get_ultra_sensor() == 0 or self.get_ultra_sensor() == 999:   #if all 999, it will re scan
+                print(self.get_ultra_sensor())
+                if self.get_ultra_sensor() < 15 or self.get_ultra_sensor() == 0 or self.get_ultra_sensor() == 999:   #if all 999, it will re scan
                     walls.append(1)
                 else:
                     walls.append(0)
+                if GLOBALS.searchingForVictims == False:
+                    return
                 self.turnLeft(90)
                 currentAngle -= 90  
-                print(self.get_thermal_sensor())
-                if self.get_thermal_sensor() > 26:  # indentified victim
+                if self.get_thermal_sensor() > 30:  # indentified victim
+                    victimPosition = i+1
                     print("deploy medical package") 
-                    self.spin_medium_motor(2000)
-                #print(currentAngle)
+                    #self.spin_medium_motor(2000)
+                else:
+                    victimPosition = 0
             print(walls)
 
             #update map
@@ -154,32 +140,22 @@ class Robot(BrickPiInterface):
             else:
                 orderedWalls = walls[-3:] + walls[:-3]
             print("ordered walls:  " + str(orderedWalls))    
-            for i in range(4):
-                map[y][x][i+1] = orderedWalls[i]
-            print(map)
-            print(" ")
 
-            GLOBALS.DATABASE.ModifyQuery("INSERT INTO mission (startTime, location, notes, endTime,userID,missionMap) VALUES (?,?,?,?,?,?)",(10,"ashgrove","dead",11,1,str(map)))
-
-            for i in range(len(tileMap)):
-                print(tileMap[i])
+            #GLOBALS.DATABASE.ModifyQuery("INSERT INTO mission (startTime, location, notes, endTime,userID,missionMap) VALUES (?,?,?,?,?,?)",(10,"ashgrove","dead",11,1,str(tileMap)))
 
             wallCount = 0
-            count1 = 0
             possibleExits = []
-            for wall in walls:
-                if wall == 1:
+            for i in range(len(walls)):
+                if walls[i] == 1:
                     wallCount += 1
                 else:
-                    possibleExits.append(90*count1*-1) #angle for each exit
+                    possibleExits.append(90*walls[i]*-1) #angle for each exit
                 if wallCount == 4:
                     possibleExits.clear()
                     break
-                count1 += 1
 
             print("possible exits: " + str(possibleExits))
             print(orderedWalls)
-            time.sleep(0.5)
 
             if possibleExits:   #turn left algo
                 if len(possibleExits) == 1:     #only 1 exit - go back the way you came
@@ -193,44 +169,67 @@ class Robot(BrickPiInterface):
                     if walls[1] == 0:
                         self.turnLeft(90)
                         currentAngle -= 90
-                        direction = -90
                     elif walls[0] == 0:
-                        direction = 0
                         pass
                     elif walls[3] == 0:
                         self.turnRight(90)
                         currentAngle += 90
-                        direction = 90
-                for i in range(4): #go through all of orderdwalls
-                    if orderedWalls[i] == 0:	#if there isn't a wall, mark it as a place to explore
-                        if i == 0 and tileMap[y-1][x] != 1: #if there ins't a wall infront and it hasn't already been explored
-                            tileMap[y-1][x]=3
-                        elif i == 3 and tileMap[y][x+1] != 1:
-                            tileMap[y][x+1]=3
-                        elif i == 2 and tileMap[y+1][x] != 1:
-                            tileMap[y+1][x]=3
-                        elif i == 1 and tileMap[y][x-1] != 1:
-                            tileMap[y][x-1]=3
+                
+                self.mapMaze(orderedWalls, currentX, currentY, victimPosition, tileMap)
 
-                time.sleep(0.5)
-                self.forward(42,150)
-                print(currentAngle)
-                map[y][x][0]=0
-                #map stuff
+                for i in range(len(tileMap)):
+                    print(tileMap[i])
+
                 if currentAngle%360 == 0:
-                    y -= 1
+                    currentY -= 1
+                elif currentAngle%360 == -90 or currentAngle%360 == 270:
+                    currentX -= 1
                 elif currentAngle%360 == 90 or currentAngle%360 == -270:
-                    x+=1
-                elif currentAngle%360 == 180 or currentAngle%360 == -180:
-                    y+=1
+                    currentX += 1
                 else:
-                    x-=1
-                map[y][x][0]=True
-                tileMap[y][x] = 1
+                    currentY += 1
 
-            print(x,y)
-        print("finished")
+                self.forward(10,150)
 
+
+    def mapMaze(self, orderedWalls, currentX, currentY, victimPosition, tileMap):
+        if orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '00'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '01'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '02'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '03'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '04'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '06'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '07'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '08'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '09'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '11'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '12'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '13'
+        elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 1 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '14'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 1 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
+            tileMap[currentY][currentX] = '15'
+        elif orderedWalls[0] == 1 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
+            tileMap[currentY][currentX] = '16'
+
+        if victimPosition != 0:
+            tileMap[currentY][currentX] += str(victimPosition)
+        else:
+            tileMap[currentY][currentX] += '0'
+    
+        return tileMap
 
 # Only execute if this is the main file, good for testing code
 if __name__ == '__main__':
