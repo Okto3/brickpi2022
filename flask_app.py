@@ -156,12 +156,20 @@ def searchMaze():
         GLOBALS.ROBOT.automatedSearch()
     return jsonify(data)
 
+@app.route('/returnHome', methods=['GET','POST'])
+def returnHome():
+    data = {}
+    if GLOBALS.ROBOT:
+        GLOBALS.ROBOT.getHome()
+    return jsonify(data)
+
 @app.route('/autonomouseSearch', methods=['GET','POST'])
 def autonomouseSearch():
     path = GLOBALS.DATABASE.ViewQuery("SELECT missionMap FROM mission ORDER BY missionID DESC LIMIT 1")
     #data = None
 
     return render_template('autonomouseSearch.html', data = path)
+
 
 
 @app.route('/mission', methods=['GET','POST'])

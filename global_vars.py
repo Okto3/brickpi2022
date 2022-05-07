@@ -4,3 +4,7 @@ CAMERA = None
 LOGGER = None
 SOUND = None
 searchingForVictims = False
+tileMap = []
+currentAngle = 0
+currentX = 7
+currentY = 7

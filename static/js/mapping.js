@@ -16,12 +16,12 @@ function load_map()
 function mapForward(results)
 {
    turtle.lookTo(results.heading);
-   turtle.forward(results.elapsedtime*20);
+   turtle.forward(results.elapsedtime*50);
 }
 function mapBackward(results)
 {
    turtle.lookTo(results.heading);
-   turtle.forward(results.elapsedtime*-20);
+   turtle.forward(results.elapsedtime*-50);
 }
 
 load_map();

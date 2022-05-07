@@ -55,7 +55,7 @@ class Robot(BrickPiInterface):
 
     def turnLeft(self,angle,speed=100,power=100):   #power percent, degrees/second, degrees
         BP = self.BP
-        degrees = angle*2+4
+        degrees = angle*2-4
         try:
             BP.offset_motor_encoder(BP.PORT_A, BP.get_motor_encoder(BP.PORT_A)) # reset encoder A
             BP.offset_motor_encoder(BP.PORT_D, BP.get_motor_encoder(BP.PORT_D)) # reset encoder D
@@ -75,7 +75,7 @@ class Robot(BrickPiInterface):
 
     def turnRight(self,angle,speed=100,power=100):
         BP = self.BP
-        degrees = angle*2+5
+        degrees = angle*2+8
         try:
             BP.offset_motor_encoder(BP.PORT_A, BP.get_motor_encoder(BP.PORT_A)) # reset encoder A
             BP.offset_motor_encoder(BP.PORT_D, BP.get_motor_encoder(BP.PORT_D)) # reset encoder D
@@ -95,53 +95,52 @@ class Robot(BrickPiInterface):
 
 
  
-
+    
 
     def automatedSearch(self):
         print(str(round(((self.get_battery()-8)*25),2))+"%")
 
-        tileMap = []
+        #GLOBALS.tileMap = []
         for l in range(15):
             tileRow = []
             for m in range(15):
                 tileRow.append('---')
-            tileMap.append(tileRow)
-        currentX = 7; currentY = 7
+            GLOBALS.tileMap.append(tileRow)
 
-        currentAngle = 0    #left: -ve, right: +ve
+        # current angle - left: -ve, right: +ve
         while GLOBALS.searchingForVictims == True:
             walls = []
             for i in range(4):  #scan
                 print(self.get_ultra_sensor())
-                if self.get_ultra_sensor() < 15 or self.get_ultra_sensor() == 0 or self.get_ultra_sensor() == 999:   #if all 999, it will re scan
+                if self.get_ultra_sensor() < 20 or self.get_ultra_sensor() == 0 or self.get_ultra_sensor() == 999:   #if all 999, it will re scan
                     walls.append(1)
                 else:
                     walls.append(0)
                 if GLOBALS.searchingForVictims == False:
                     return
                 self.turnLeft(90)
-                currentAngle -= 90  
-                if self.get_thermal_sensor() > 30:  # indentified victim
+                GLOBALS.currentAngle -= 90  
+                if self.get_thermal_sensor() > 27:  # indentified victim
                     victimPosition = i+1
                     print("deploy medical package") 
-                    #self.spin_medium_motor(2000)
+                    self.spin_medium_motor(2000)
                 else:
                     victimPosition = 0
             print(walls)
 
             #update map
             orderedWalls = []
-            if currentAngle%360 == 0:
+            if GLOBALS.currentAngle%360 == 0:
                 orderedWalls = walls
-            elif currentAngle%360 == -90 or currentAngle%360 == 270:
+            elif GLOBALS.currentAngle%360 == -90 or GLOBALS.currentAngle%360 == 270:
                 orderedWalls = walls[-1:] + walls[:-1]
-            elif currentAngle%360 == -180 or currentAngle%360 == 180:
+            elif GLOBALS.currentAngle%360 == -180 or GLOBALS.currentAngle%360 == 180:
                 orderedWalls = walls[-2:] + walls[:-2]
             else:
                 orderedWalls = walls[-3:] + walls[:-3]
             print("ordered walls:  " + str(orderedWalls))    
 
-            #GLOBALS.DATABASE.ModifyQuery("INSERT INTO mission (startTime, location, notes, endTime,userID,missionMap) VALUES (?,?,?,?,?,?)",(10,"ashgrove","dead",11,1,str(tileMap)))
+            GLOBALS.DATABASE.ModifyQuery("INSERT INTO mission (startTime, location, notes, endTime,userID,missionMap) VALUES (?,?,?,?,?,?)",(10,"ashgrove","dead",11,1,str(GLOBALS.tileMap)))
 
             wallCount = 0
             possibleExits = []
@@ -161,75 +160,235 @@ class Robot(BrickPiInterface):
                 if len(possibleExits) == 1:     #only 1 exit - go back the way you came
                     if abs(possibleExits[0])%360 <= 180:
                         self.turnLeft(abs(possibleExits[0]))
-                        currentAngle += possibleExits[0]
+                        GLOBALS.currentAngle += possibleExits[0]
                     else:
                         self.turnRight(360-abs(possibleExits[0]))
-                        currentAngle += 360-abs(possibleExits[0])
+                        GLOBALS.currentAngle += 360-abs(possibleExits[0])
                 else:       
                     if walls[1] == 0:
                         self.turnLeft(90)
-                        currentAngle -= 90
+                        GLOBALS.currentAngle -= 90
                     elif walls[0] == 0:
                         pass
                     elif walls[3] == 0:
                         self.turnRight(90)
-                        currentAngle += 90
+                        GLOBALS.currentAngle += 90
                 
-                self.mapMaze(orderedWalls, currentX, currentY, victimPosition, tileMap)
+                self.mapMaze(orderedWalls, victimPosition)
 
-                for i in range(len(tileMap)):
-                    print(tileMap[i])
+                for i in range(len(GLOBALS.tileMap)):
+                    print(GLOBALS.tileMap[i])
 
-                if currentAngle%360 == 0:
-                    currentY -= 1
-                elif currentAngle%360 == -90 or currentAngle%360 == 270:
-                    currentX -= 1
-                elif currentAngle%360 == 90 or currentAngle%360 == -270:
-                    currentX += 1
+                if GLOBALS.currentAngle%360 == 0:
+                    GLOBALS.currentY -= 1
+                elif GLOBALS.currentAngle%360 == -90 or GLOBALS.currentAngle%360 == 270:
+                    GLOBALS.currentX -= 1
+                elif GLOBALS.currentAngle%360 == 90 or GLOBALS.currentAngle%360 == -270:
+                    GLOBALS.currentX += 1
                 else:
-                    currentY += 1
+                    GLOBALS.currentY += 1
 
-                self.forward(10,150)
+                self.forward(25,150)
 
 
-    def mapMaze(self, orderedWalls, currentX, currentY, victimPosition, tileMap):
+    def mapMaze(self, orderedWalls, victimPosition):
         if orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '00'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '00'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '01'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '01'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '02'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '02'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '03'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '03'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '04'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '04'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '06'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '06'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '07'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '07'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '08'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '08'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '09'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '09'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '11'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '11'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '12'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '12'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 0 and orderedWalls[2] == 1 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '13'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '13'
         elif orderedWalls[0] == 0 and orderedWalls[1] == 1 and orderedWalls[2] == 1 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '14'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '14'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 1 and orderedWalls[2] == 1 and orderedWalls[3] == 0:
-            tileMap[currentY][currentX] = '15'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '15'
         elif orderedWalls[0] == 1 and orderedWalls[1] == 1 and orderedWalls[2] == 0 and orderedWalls[3] == 1:
-            tileMap[currentY][currentX] = '16'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] = '16'
 
         if victimPosition != 0:
-            tileMap[currentY][currentX] += str(victimPosition)
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] += str(victimPosition)
         else:
-            tileMap[currentY][currentX] += '0'
+            GLOBALS.tileMap[GLOBALS.currentY][GLOBALS.currentX] += '0'
     
-        return tileMap
+        return GLOBALS.tileMap
+
+    def getHome(self):
+        returnMap = []
+        x = GLOBALS.currentX; y = GLOBALS.currentY+1
+        print("x and y: " + str(x) + ", " + str(y))
+        for l in range(15):
+            returntileRow = []
+            for m in range(15):
+                returntileRow.append('-')
+            returnMap.append(returntileRow)
+        returnMap[y][x] = '0'
+        for k in range(len(GLOBALS.tileMap)):
+            print(GLOBALS.tileMap)
+
+        count = '0'
+        for z in range(10): #max number of tiles to destination - should be while loop
+
+            for i in range(len(returnMap)):
+                for j in range(len(returnMap[i])):
+                    if returnMap[i][j] == count:
+                        print("next possition is at: " + str(i) + ", " + str(j))
+                        x=j; y=i
+                        count = str(int(count)+1)
+
+                        for k in range(len(returnMap)):
+                            print(returnMap[k])
+                        print(" ")
+                        print(count)
+
+                        if GLOBALS.tileMap[y][x][0:2] == '00':
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '01':
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '02':
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '03':
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '04':
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '06':
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                            print("code" + str(6))
+                        if GLOBALS.tileMap[y][x][0:2] == '07':
+                            if returnMap[x-1][x] == '-':
+                                returnMap[x-1][x] = count
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '08':
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '09':
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '11':
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '12':
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '13':
+                            if returnMap[y][x-1] == '-':
+                                returnMap[y][x-1] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '14':
+                            if returnMap[y-1][x] == '-':
+                                returnMap[y-1][x] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '15':
+                            if returnMap[y][x+1] == '-':
+                                returnMap[y][x+1] = count
+                        if GLOBALS.tileMap[y][x][0:2] == '16':
+                            if returnMap[y+1][x] == '-':
+                                returnMap[y+1][x] = count
+            
+        #find path back
+        startX = 7; startY = 7
+        pathBack = [[7,7]]
+        for i in range(int(count)-1):
+            largest = int(returnMap[startY][startX])
+            if returnMap[startY-1][startX] == str(largest - 1):
+                nextStep = [startY-1,startX]
+            elif returnMap[startY][startX+1] == str(largest - 1):
+                nextStep = [startY,startX+1]
+            elif returnMap[startY+1][startX] == str(largest - 1):
+                nextStep = [startY+1,startX]
+            else:
+                nextStep = [startY,startX-1]
+            pathBack.append(nextStep)
+            startX = nextStep[1]
+            startY = nextStep[0]
+        print(pathBack)
+
+        #turn it forwards
+        print("REORIENTATING!")
+        if GLOBALS.currentAngle%360 == 0:
+            pass
+        if GLOBALS.currentAngle%360 == -90 or GLOBALS.currentAngle%360 == 270:
+            self.turnRight(90)
+        elif GLOBALS.currentAngle%360 == 90 or GLOBALS.currentAngle%360 == -270:
+            self.turnLeft(90)
+        elif GLOBALS.currentAngle%360 == 180 or GLOBALS.currentAngle%360 == -180:
+            self.turnRight(180)
+
+        steps = len(pathBack)
+        for i in range(steps):
+            if steps - i - 2 >= 0:
+                if pathBack[steps-i-1][0] - pathBack[steps - i - 2][0] < 0: #y needs to change
+                    self.turnLeft(180)
+                    self.forward(25)
+                    self.turnLeft(180)
+                elif pathBack[steps-i-1][0] - pathBack[steps - i - 2][0] > 0:
+                    self.forward(25)
+                if pathBack[steps-i-1][1] - pathBack[steps - i - 2][1] > 0:
+                    self.turnLeft(90)
+                    self.forward(25)
+                    self.turnRight(90)
+                elif pathBack[steps-i-1][1] - pathBack[steps - i - 2][1] < 0:
+                    self.turnRight(90)
+                    self.forward(25)
+                    self.turnLeft(90)
+
+
+
+
 
 # Only execute if this is the main file, good for testing code
 if __name__ == '__main__':
@@ -238,6 +397,6 @@ if __name__ == '__main__':
     ROBOT.configure_sensors() #This takes 4 seconds
     #input("Press Enter: ")
     ROBOT.automatedSearch()
-    #ROBOT.alignWithWall(30)
+    ROBOT.getHome()
     ROBOT.safe_exit()
 
